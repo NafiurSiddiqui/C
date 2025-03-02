@@ -15,7 +15,7 @@ int main()
 	//so we typecast the expression with double
 	double dozen = (double) eggs / 12;
 	//(dataType) affects only the immediate next value. So, double converts eggs (18) to 18.00
-	printf("You have %f dozen eggs for today.\n", dozen);
+	printf("You have %.2f dozen eggs for today.\n", dozen);
 	
 	return 0;
 }
