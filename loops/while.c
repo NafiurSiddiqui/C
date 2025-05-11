@@ -11,8 +11,6 @@ int main()
         printf("Enter a Positive number (0 to exit): ");
         int result = scanf("%d", &userNumber);
 
-        // printf("Result of scanf: %d\n", result);
-
         // Check if the input was valid, without the follwoing code, it will start an infinite loop.
         if (result != 1)
         {
