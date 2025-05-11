@@ -2,9 +2,9 @@
 #include <string.h>
 int main(void)
 {
+
     // creating string
     char greeting[] = "Hello You!";
-
     // second way
     char greeting2[] = {'H', 'e', 'l', 'l', 'o', '\0'};
 
@@ -36,6 +36,10 @@ int main(void)
 
     // Notic how the null terminator is always included.
     // for the memroy, notice how the string are just a contiguous memory which is only a byte aprat, represented in hex.
+
+    // this is how string is generally defined by nerdlings
+    char *string = "I am a lower level way of string!\n";
+    printf("%s", string);
 
     return 0;
 }
